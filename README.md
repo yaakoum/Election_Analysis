@@ -16,6 +16,6 @@ As menioned in the overview, there were many things we were tasked to do. We wer
 5. **_Which candidate won the election, what was their vote count, and what was their percentage of the total votes?_** <br /> With 73% of the votes going to Diana DeGette, she won the election with the a popular vote total of 272,892 votes. 
 
 ## Election-Audit Summary
-
-- Refactoring code is extremely beneficial for many reasons. Refactoring makes the code more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Overall, it allows a code to run better and smoother.
-- On the other hand, there are some disadvantages to refactoring code and it is primarily to do with the fact that its so complex. The complexity can also result in more time consumption. Although very rewarding, if it is not needed it may not always be the best decision.
+Generally speaking the code we were able to formulate here is largely transferable and ready to be used for other elections. There are a few small things to keep in mind to ensure it will work with no hiccups and they are listed below.
+- The first thing has to do with the file location. As you can see in the code below as an example, the file that the audit is referencing is something on my computer specifically and for this to work elsewhere that would need to be adjusted to wherever the file is being referenced.
+- The second consideration would have to do with the CSV format. That to ensure the most fluuidity 
