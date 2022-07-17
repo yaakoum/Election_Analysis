@@ -1,29 +1,20 @@
-# Election Analysis
-## Project Overview
-A Colorado Board of Elections employee has given you the following tasks to complete the election audit of a recent local
-congressional election.
-1. Calculate the total number of votes cast.
-2. Get a complete list of candidates who received votes.
-3. Calculate the total number of votes each candidate received.
-4. Calculate the percentage of votes each candidate won.
-5. Determine the winner of the election based on popular vote.
-## Resources
-Data Source: election results.csv
-- Software: Python 3.6.1, Visual Studio Code, 1.38.1
-## Summary
-The analysis of the election show that:
-- There were
-"x" votes cast in the election.
-The candidates were:
-Candidate 1
-Candidate 2
-Candidate 3
-THe candidate results were:
-Candidate 1 received
-"ye" of the vote and "v" number of votes.
-Candidate 2 received "x9" of the vote and "y" number of votes
-Candidate 3 received "x9" of the vote and "y" number of votes.
-- The winner of the election was:
-Candidate (1, 2, or 3), who received "x%" of the vote and "y" number of votes.
-## Challenge Overview
-## Challenge Summary
+# Election_Analysis
+To view the results first hand, please click this link to access the Text File with the findings: [Python Challenge - Election Analysis](https://github.com/yaakoum/Election_Analysis/blob/main/election_analysis.txt)
+
+## Overview of Election Audit
+Colorado Board of Elections employee, Tom, has come to request for our assistance as we have become well rounded Python users. He needs our skills report the finding for the election and to audit the tabulated results for U.S. congressional precinct in Colorado. Some of the things we will be auditing are the name of the candidates and their votes and percentage of the total votes as well as distinguishing the winner by popular vote. Some additional information that we will provide in our audit will indicate each precincts' activity and the leading county with the highest turnout.
+
+## Election-Audit Results
+As menioned in the overview, there were many things we were tasked to do. We were requested to find multiple conclusions and below you will find all the information to do with our audit. Here is a picture of the results to make it easier in viewing:
+<img src="https://github.com/yaakoum/stock-analysis/blob/main/Stock%20performance/Stock_Performance_2017.png" width="200" height="200" />   
+1. How many votes were cast in this congressional election?
+2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
+3. Which county had the largest number of votes?
+4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+
+## Election-Audit Summary
+
+
+- Refactoring code is extremely beneficial for many reasons. Refactoring makes the code more efficient by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read. Overall, it allows a code to run better and smoother.
+- On the other hand, there are some disadvantages to refactoring code and it is primarily to do with the fact that its so complex. The complexity can also result in more time consumption. Although very rewarding, if it is not needed it may not always be the best decision.
