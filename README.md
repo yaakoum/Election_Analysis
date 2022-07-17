@@ -18,4 +18,19 @@ As menioned in the overview, there were many things we were tasked to do. We wer
 ## Election-Audit Summary
 Generally speaking the code we were able to formulate here is largely transferable and ready to be used for other elections. There are a few small things to keep in mind to ensure it will work with no hiccups and they are listed below.
 - The first thing has to do with the file location. As you can see in the code below as an example, the file that the audit is referencing is something on my computer specifically and for this to work elsewhere that would need to be adjusted to wherever the file is being referenced.
-- The second consideration would have to do with the CSV format. That to ensure the most fluuidity 
+
+        Add a variable to load a file from a path.
+        file_to_load = os.path.join("Resources", "election_results.csv")
+        Add a variable to save the file to a path.
+        file_to_save = os.path.join("analysis", "election_analysis.txt")   
+ 
+- The second consideration would have to do with the CSV format. To ensure the smoothest and simplist experience when replicating the audit for other elections, the column and data orientation in general should follow the same style with a long list of all ballots then city then candidate. If there are differences the following codes would need modifying:
+
+         # For each row in the CSV file.
+      for row in reader:
+
+        # Get the candidate name from each row.
+        candidate_name = row[2]
+
+        # 3: Extract the county name from each row.
+        county_name = row[1]
