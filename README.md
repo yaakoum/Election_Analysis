@@ -6,11 +6,13 @@ Colorado Board of Elections employee, Tom, has come to request for our assistanc
 
 ## Election-Audit Results
 As menioned in the overview, there were many things we were tasked to do. We were requested to find multiple conclusions and below you will find all the information to do with our audit. Here is a picture of the results to make it easier in viewing:
-<img src="https://github.com/yaakoum/stock-analysis/blob/main/Stock%20performance/Stock_Performance_2017.png" width="200" height="200" />   
-1. How many votes were cast in this congressional election?
-2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-3. Which county had the largest number of votes?
-4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
+
+<img src="https://github.com/yaakoum/Election_Analysis/blob/main/Final%20Results.png" width="430" height="500" />   
+
+1. How many votes were cast in this congressional election? <br /> The total number of votes that were cast in this congressional election were: 369,711
+2. Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct <br /> As you can tell by the image above, the highest turnout was in Denver by a long shot with over 80% (306,055 of 369,711) of the votes coming out from there. Jefferson and Arapahoe both had very little turnout compared to Denver with each of them accounting for only only 10.5% and 6.7% respectively of all votes.
+3. Which county had the largest number of votes? <br /> As mentioned Denver had the largest number of votes with over 80% (306,055 of 369,711) of them coming from here.
+4. Provide a breakdown of the number of votes and the percentage of the total votes each candidate received. <br /> Funny enough, there was a similar disparity in the results between the candidates and the county. With of 73% of the votes goin to Diana DeGette, she won the election with the a popular vote total of 272,892 votes.
 5. Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
 
 ## Election-Audit Summary
